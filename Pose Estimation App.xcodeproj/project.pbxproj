@@ -1,0 +1,698 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 55;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FBA0F5ED27A72B3D001A98F3 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA0F5EC27A72B3D001A98F3 /* Tests_iOS.swift */; };
+		FBA0F5EF27A72B3D001A98F3 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA0F5EE27A72B3D001A98F3 /* Tests_iOSLaunchTests.swift */; };
+		FBA0F5F927A72B3D001A98F3 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA0F5F827A72B3D001A98F3 /* Tests_macOS.swift */; };
+		FBA0F5FB27A72B3D001A98F3 /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA0F5FA27A72B3D001A98F3 /* Tests_macOSLaunchTests.swift */; };
+		FBA0F5FC27A72B3D001A98F3 /* Pose_Estimation_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA0F5D427A72B33001A98F3 /* Pose_Estimation_AppApp.swift */; };
+		FBA0F5FD27A72B3D001A98F3 /* Pose_Estimation_AppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA0F5D427A72B33001A98F3 /* Pose_Estimation_AppApp.swift */; };
+		FBA0F5FE27A72B3D001A98F3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA0F5D527A72B33001A98F3 /* ContentView.swift */; };
+		FBA0F5FF27A72B3D001A98F3 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA0F5D527A72B33001A98F3 /* ContentView.swift */; };
+		FBA0F60027A72B3D001A98F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBA0F5D627A72B3D001A98F3 /* Assets.xcassets */; };
+		FBA0F60127A72B3D001A98F3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FBA0F5D627A72B3D001A98F3 /* Assets.xcassets */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FBA0F5E927A72B3D001A98F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBA0F5CF27A72B32001A98F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBA0F5DA27A72B3D001A98F3;
+			remoteInfo = "Pose Estimation App (iOS)";
+		};
+		FBA0F5F527A72B3D001A98F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FBA0F5CF27A72B32001A98F3 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FBA0F5E027A72B3D001A98F3;
+			remoteInfo = "Pose Estimation App (macOS)";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FBA0F5D427A72B33001A98F3 /* Pose_Estimation_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pose_Estimation_AppApp.swift; sourceTree = "<group>"; };
+		FBA0F5D527A72B33001A98F3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		FBA0F5D627A72B3D001A98F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FBA0F5DB27A72B3D001A98F3 /* Pose Estimation App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pose Estimation App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBA0F5E127A72B3D001A98F3 /* Pose Estimation App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Pose Estimation App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBA0F5E327A72B3D001A98F3 /* macOS.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = macOS.entitlements; sourceTree = "<group>"; };
+		FBA0F5E827A72B3D001A98F3 /* Tests iOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests iOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBA0F5EC27A72B3D001A98F3 /* Tests_iOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOS.swift; sourceTree = "<group>"; };
+		FBA0F5EE27A72B3D001A98F3 /* Tests_iOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_iOSLaunchTests.swift; sourceTree = "<group>"; };
+		FBA0F5F427A72B3D001A98F3 /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		FBA0F5F827A72B3D001A98F3 /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
+		FBA0F5FA27A72B3D001A98F3 /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FBA0F5D827A72B3D001A98F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBA0F5DE27A72B3D001A98F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBA0F5E527A72B3D001A98F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBA0F5F127A72B3D001A98F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FBA0F5CE27A72B32001A98F3 = {
+			isa = PBXGroup;
+			children = (
+				FBA0F5D327A72B33001A98F3 /* Shared */,
+				FBA0F5E227A72B3D001A98F3 /* macOS */,
+				FBA0F5EB27A72B3D001A98F3 /* Tests iOS */,
+				FBA0F5F727A72B3D001A98F3 /* Tests macOS */,
+				FBA0F5DC27A72B3D001A98F3 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FBA0F5D327A72B33001A98F3 /* Shared */ = {
+			isa = PBXGroup;
+			children = (
+				FBA0F5D427A72B33001A98F3 /* Pose_Estimation_AppApp.swift */,
+				FBA0F5D527A72B33001A98F3 /* ContentView.swift */,
+				FBA0F5D627A72B3D001A98F3 /* Assets.xcassets */,
+			);
+			path = Shared;
+			sourceTree = "<group>";
+		};
+		FBA0F5DC27A72B3D001A98F3 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FBA0F5DB27A72B3D001A98F3 /* Pose Estimation App.app */,
+				FBA0F5E127A72B3D001A98F3 /* Pose Estimation App.app */,
+				FBA0F5E827A72B3D001A98F3 /* Tests iOS.xctest */,
+				FBA0F5F427A72B3D001A98F3 /* Tests macOS.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FBA0F5E227A72B3D001A98F3 /* macOS */ = {
+			isa = PBXGroup;
+			children = (
+				FBA0F5E327A72B3D001A98F3 /* macOS.entitlements */,
+			);
+			path = macOS;
+			sourceTree = "<group>";
+		};
+		FBA0F5EB27A72B3D001A98F3 /* Tests iOS */ = {
+			isa = PBXGroup;
+			children = (
+				FBA0F5EC27A72B3D001A98F3 /* Tests_iOS.swift */,
+				FBA0F5EE27A72B3D001A98F3 /* Tests_iOSLaunchTests.swift */,
+			);
+			path = "Tests iOS";
+			sourceTree = "<group>";
+		};
+		FBA0F5F727A72B3D001A98F3 /* Tests macOS */ = {
+			isa = PBXGroup;
+			children = (
+				FBA0F5F827A72B3D001A98F3 /* Tests_macOS.swift */,
+				FBA0F5FA27A72B3D001A98F3 /* Tests_macOSLaunchTests.swift */,
+			);
+			path = "Tests macOS";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FBA0F5DA27A72B3D001A98F3 /* Pose Estimation App (iOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBA0F60427A72B3D001A98F3 /* Build configuration list for PBXNativeTarget "Pose Estimation App (iOS)" */;
+			buildPhases = (
+				FBA0F5D727A72B3D001A98F3 /* Sources */,
+				FBA0F5D827A72B3D001A98F3 /* Frameworks */,
+				FBA0F5D927A72B3D001A98F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pose Estimation App (iOS)";
+			productName = "Pose Estimation App (iOS)";
+			productReference = FBA0F5DB27A72B3D001A98F3 /* Pose Estimation App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FBA0F5E027A72B3D001A98F3 /* Pose Estimation App (macOS) */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBA0F60727A72B3D001A98F3 /* Build configuration list for PBXNativeTarget "Pose Estimation App (macOS)" */;
+			buildPhases = (
+				FBA0F5DD27A72B3D001A98F3 /* Sources */,
+				FBA0F5DE27A72B3D001A98F3 /* Frameworks */,
+				FBA0F5DF27A72B3D001A98F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pose Estimation App (macOS)";
+			productName = "Pose Estimation App (macOS)";
+			productReference = FBA0F5E127A72B3D001A98F3 /* Pose Estimation App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FBA0F5E727A72B3D001A98F3 /* Tests iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBA0F60A27A72B3D001A98F3 /* Build configuration list for PBXNativeTarget "Tests iOS" */;
+			buildPhases = (
+				FBA0F5E427A72B3D001A98F3 /* Sources */,
+				FBA0F5E527A72B3D001A98F3 /* Frameworks */,
+				FBA0F5E627A72B3D001A98F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBA0F5EA27A72B3D001A98F3 /* PBXTargetDependency */,
+			);
+			name = "Tests iOS";
+			productName = "Tests iOS";
+			productReference = FBA0F5E827A72B3D001A98F3 /* Tests iOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		FBA0F5F327A72B3D001A98F3 /* Tests macOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FBA0F60D27A72B3D001A98F3 /* Build configuration list for PBXNativeTarget "Tests macOS" */;
+			buildPhases = (
+				FBA0F5F027A72B3D001A98F3 /* Sources */,
+				FBA0F5F127A72B3D001A98F3 /* Frameworks */,
+				FBA0F5F227A72B3D001A98F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FBA0F5F627A72B3D001A98F3 /* PBXTargetDependency */,
+			);
+			name = "Tests macOS";
+			productName = "Tests macOS";
+			productReference = FBA0F5F427A72B3D001A98F3 /* Tests macOS.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FBA0F5CF27A72B32001A98F3 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1320;
+				LastUpgradeCheck = 1320;
+				TargetAttributes = {
+					FBA0F5DA27A72B3D001A98F3 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					FBA0F5E027A72B3D001A98F3 = {
+						CreatedOnToolsVersion = 13.2.1;
+					};
+					FBA0F5E727A72B3D001A98F3 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = FBA0F5DA27A72B3D001A98F3;
+					};
+					FBA0F5F327A72B3D001A98F3 = {
+						CreatedOnToolsVersion = 13.2.1;
+						TestTargetID = FBA0F5E027A72B3D001A98F3;
+					};
+				};
+			};
+			buildConfigurationList = FBA0F5D227A72B32001A98F3 /* Build configuration list for PBXProject "Pose Estimation App" */;
+			compatibilityVersion = "Xcode 13.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FBA0F5CE27A72B32001A98F3;
+			productRefGroup = FBA0F5DC27A72B3D001A98F3 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FBA0F5DA27A72B3D001A98F3 /* Pose Estimation App (iOS) */,
+				FBA0F5E027A72B3D001A98F3 /* Pose Estimation App (macOS) */,
+				FBA0F5E727A72B3D001A98F3 /* Tests iOS */,
+				FBA0F5F327A72B3D001A98F3 /* Tests macOS */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FBA0F5D927A72B3D001A98F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBA0F60027A72B3D001A98F3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBA0F5DF27A72B3D001A98F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBA0F60127A72B3D001A98F3 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBA0F5E627A72B3D001A98F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBA0F5F227A72B3D001A98F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FBA0F5D727A72B3D001A98F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBA0F5FE27A72B3D001A98F3 /* ContentView.swift in Sources */,
+				FBA0F5FC27A72B3D001A98F3 /* Pose_Estimation_AppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBA0F5DD27A72B3D001A98F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBA0F5FF27A72B3D001A98F3 /* ContentView.swift in Sources */,
+				FBA0F5FD27A72B3D001A98F3 /* Pose_Estimation_AppApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBA0F5E427A72B3D001A98F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBA0F5EF27A72B3D001A98F3 /* Tests_iOSLaunchTests.swift in Sources */,
+				FBA0F5ED27A72B3D001A98F3 /* Tests_iOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FBA0F5F027A72B3D001A98F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FBA0F5FB27A72B3D001A98F3 /* Tests_macOSLaunchTests.swift in Sources */,
+				FBA0F5F927A72B3D001A98F3 /* Tests_macOS.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FBA0F5EA27A72B3D001A98F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBA0F5DA27A72B3D001A98F3 /* Pose Estimation App (iOS) */;
+			targetProxy = FBA0F5E927A72B3D001A98F3 /* PBXContainerItemProxy */;
+		};
+		FBA0F5F627A72B3D001A98F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FBA0F5E027A72B3D001A98F3 /* Pose Estimation App (macOS) */;
+			targetProxy = FBA0F5F527A72B3D001A98F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		FBA0F60227A72B3D001A98F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FBA0F60327A72B3D001A98F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		FBA0F60527A72B3D001A98F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Pose-Estimation-App";
+				PRODUCT_NAME = "Pose Estimation App";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FBA0F60627A72B3D001A98F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Pose-Estimation-App";
+				PRODUCT_NAME = "Pose Estimation App";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBA0F60827A72B3D001A98F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Pose-Estimation-App";
+				PRODUCT_NAME = "Pose Estimation App";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		FBA0F60927A72B3D001A98F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Pose-Estimation-App";
+				PRODUCT_NAME = "Pose Estimation App";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		FBA0F60B27A72B3D001A98F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pose Estimation App (iOS)";
+			};
+			name = Debug;
+		};
+		FBA0F60C27A72B3D001A98F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 15.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Tests-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Pose Estimation App (iOS)";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FBA0F60E27A72B3D001A98F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Pose Estimation App (macOS)";
+			};
+			name = Debug;
+		};
+		FBA0F60F27A72B3D001A98F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 11.6;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Tests-macOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = "Pose Estimation App (macOS)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FBA0F5D227A72B32001A98F3 /* Build configuration list for PBXProject "Pose Estimation App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBA0F60227A72B3D001A98F3 /* Debug */,
+				FBA0F60327A72B3D001A98F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBA0F60427A72B3D001A98F3 /* Build configuration list for PBXNativeTarget "Pose Estimation App (iOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBA0F60527A72B3D001A98F3 /* Debug */,
+				FBA0F60627A72B3D001A98F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBA0F60727A72B3D001A98F3 /* Build configuration list for PBXNativeTarget "Pose Estimation App (macOS)" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBA0F60827A72B3D001A98F3 /* Debug */,
+				FBA0F60927A72B3D001A98F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBA0F60A27A72B3D001A98F3 /* Build configuration list for PBXNativeTarget "Tests iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBA0F60B27A72B3D001A98F3 /* Debug */,
+				FBA0F60C27A72B3D001A98F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FBA0F60D27A72B3D001A98F3 /* Build configuration list for PBXNativeTarget "Tests macOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FBA0F60E27A72B3D001A98F3 /* Debug */,
+				FBA0F60F27A72B3D001A98F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FBA0F5CF27A72B32001A98F3 /* Project object */;
+}
