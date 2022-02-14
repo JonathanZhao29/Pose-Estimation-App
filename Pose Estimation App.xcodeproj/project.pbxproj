@@ -13,6 +13,12 @@
 		64D2393A27B9F8A5000F2A30 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 64D2393827B9F8A5000F2A30 /* GoogleService-Info.plist */; };
 		64D2393B27B9F8A5000F2A30 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 64D2393827B9F8A5000F2A30 /* GoogleService-Info.plist */; };
 		64D2393C27B9F8A5000F2A30 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 64D2393827B9F8A5000F2A30 /* GoogleService-Info.plist */; };
+		64D2393E27B9FEB2000F2A30 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D2393D27B9FEB2000F2A30 /* SignUpView.swift */; };
+		64D2393F27B9FEB2000F2A30 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D2393D27B9FEB2000F2A30 /* SignUpView.swift */; };
+		64D2394627BA16B1000F2A30 /* AppUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D2394527BA16B1000F2A30 /* AppUserModel.swift */; };
+		64D2394727BA16B1000F2A30 /* AppUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D2394527BA16B1000F2A30 /* AppUserModel.swift */; };
+		64D2394827BA16B1000F2A30 /* AppUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D2394527BA16B1000F2A30 /* AppUserModel.swift */; };
+		64D2394927BA16B1000F2A30 /* AppUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D2394527BA16B1000F2A30 /* AppUserModel.swift */; };
 		68CD43B36DD1BEC3986A98A6 /* Pods_Pose_Estimation_App__iOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37BD991661E15775BE27F20E /* Pods_Pose_Estimation_App__iOS_.framework */; };
 		E9F19FC5C40201A8967CBC5D /* Pods_Pose_Estimation_App__macOS_.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 39EC8FDD5DD5BB950D985B18 /* Pods_Pose_Estimation_App__macOS_.framework */; };
 		FBA0F5ED27A72B3D001A98F3 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA0F5EC27A72B3D001A98F3 /* Tests_iOS.swift */; };
@@ -51,6 +57,8 @@
 		64D238CE27B1C55D000F2A30 /* Empty.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Empty.md; sourceTree = "<group>"; };
 		64D2393527B99AE4000F2A30 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
 		64D2393827B9F8A5000F2A30 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		64D2393D27B9FEB2000F2A30 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		64D2394527BA16B1000F2A30 /* AppUserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUserModel.swift; sourceTree = "<group>"; };
 		87A581C53F919559861FA1C5 /* Pods-Pose Estimation App (iOS).release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pose Estimation App (iOS).release.xcconfig"; path = "Target Support Files/Pods-Pose Estimation App (iOS)/Pods-Pose Estimation App (iOS).release.xcconfig"; sourceTree = "<group>"; };
 		CB36A27343B17C1DB41722CF /* Pods-Pose Estimation App (macOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pose Estimation App (macOS).debug.xcconfig"; path = "Target Support Files/Pods-Pose Estimation App (macOS)/Pods-Pose Estimation App (macOS).debug.xcconfig"; sourceTree = "<group>"; };
 		DC089CFF8F8ABD3F896E6E3C /* Pods-Pose Estimation App (iOS).debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Pose Estimation App (iOS).debug.xcconfig"; path = "Target Support Files/Pods-Pose Estimation App (iOS)/Pods-Pose Estimation App (iOS).debug.xcconfig"; sourceTree = "<group>"; };
@@ -122,6 +130,31 @@
 			path = Pods;
 			sourceTree = "<group>";
 		};
+		64D2394227BA0711000F2A30 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FBA0F5D527A72B33001A98F3 /* ContentView.swift */,
+				64D2393527B99AE4000F2A30 /* SignInView.swift */,
+				64D2393D27B9FEB2000F2A30 /* SignUpView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		64D2394327BA1658000F2A30 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		64D2394427BA166E000F2A30 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				64D2394527BA16B1000F2A30 /* AppUserModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		FBA0F5CE27A72B32001A98F3 = {
 			isa = PBXGroup;
 			children = (
@@ -138,12 +171,13 @@
 		FBA0F5D327A72B33001A98F3 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				64D2394427BA166E000F2A30 /* Models */,
+				64D2394327BA1658000F2A30 /* Helpers */,
+				64D2394227BA0711000F2A30 /* Views */,
 				64D2393827B9F8A5000F2A30 /* GoogleService-Info.plist */,
 				FBA0F5D427A72B33001A98F3 /* Pose_Estimation_AppApp.swift */,
-				FBA0F5D527A72B33001A98F3 /* ContentView.swift */,
 				FBA0F5D627A72B3D001A98F3 /* Assets.xcassets */,
 				64D238CE27B1C55D000F2A30 /* Empty.md */,
-				64D2393527B99AE4000F2A30 /* SignInView.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -414,9 +448,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64D2393E27B9FEB2000F2A30 /* SignUpView.swift in Sources */,
 				64D2393627B99AE4000F2A30 /* SignInView.swift in Sources */,
 				FBA0F5FE27A72B3D001A98F3 /* ContentView.swift in Sources */,
 				FBA0F5FC27A72B3D001A98F3 /* Pose_Estimation_AppApp.swift in Sources */,
+				64D2394627BA16B1000F2A30 /* AppUserModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -424,9 +460,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64D2393F27B9FEB2000F2A30 /* SignUpView.swift in Sources */,
 				64D2393727B99AE4000F2A30 /* SignInView.swift in Sources */,
 				FBA0F5FF27A72B3D001A98F3 /* ContentView.swift in Sources */,
 				FBA0F5FD27A72B3D001A98F3 /* Pose_Estimation_AppApp.swift in Sources */,
+				64D2394727BA16B1000F2A30 /* AppUserModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -436,6 +474,7 @@
 			files = (
 				FBA0F5EF27A72B3D001A98F3 /* Tests_iOSLaunchTests.swift in Sources */,
 				FBA0F5ED27A72B3D001A98F3 /* Tests_iOS.swift in Sources */,
+				64D2394827BA16B1000F2A30 /* AppUserModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -445,6 +484,7 @@
 			files = (
 				FBA0F5FB27A72B3D001A98F3 /* Tests_macOSLaunchTests.swift in Sources */,
 				FBA0F5F927A72B3D001A98F3 /* Tests_macOS.swift in Sources */,
+				64D2394927BA16B1000F2A30 /* AppUserModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
