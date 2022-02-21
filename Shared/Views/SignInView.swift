@@ -10,6 +10,9 @@ import SwiftUI
 struct SignInView: View {
     @State var email = ""
     @State var password = ""
+    @State var errorMsg = ""
+    
+    var onFailureString = "Incorrect email or password"
     
     @EnvironmentObject var viewModel: AppUserModel
     
@@ -30,13 +33,19 @@ struct SignInView: View {
                     .padding()
                     .background(Color(.secondarySystemBackground))
                     .cornerRadius(64)
-                
+                Text(errorMsg)
+                    .foregroundColor(Color.red)
                 Button(action: {
                     guard  !email.isEmpty, !password.isEmpty else {
+                        errorMsg = onFailureString
                         return
                     }
                     
-                    viewModel.signIn(email: email, password: password)
+                    viewModel.signIn(email: email, password: password, onFail: {
+                        errorMsg = onFailureString
+                    }, onSucess: {
+                        errorMsg = ""
+                    })
                     
                 }, label: {
                     Text("Sign In")

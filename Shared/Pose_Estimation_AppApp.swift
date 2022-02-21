@@ -11,10 +11,10 @@ import Firebase
 @main
 struct Pose_Estimation_AppApp: App {
     
-//    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
-    init() {
-        FirebaseApp.configure()
-    }
+    @UIApplicationDelegateAdaptor(AppDelegate.self) var appDelegate
+//    init() {
+//        FirebaseApp.configure()
+//    }
     var body: some Scene {
         WindowGroup {
             let userModel = AppUserModel()
@@ -24,11 +24,11 @@ struct Pose_Estimation_AppApp: App {
     }
 }
 
-//class AppDelegate: NSObject, UIApplicationDelegate {
-//    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
-//
-//        FirebaseApp.configure()
-//
-//        return true
-//    }
-//}
+class AppDelegate: NSObject, UIApplicationDelegate {
+    func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey : Any]? = nil) -> Bool {
+
+        FirebaseApp.configure()
+
+        return true
+    }
+}
