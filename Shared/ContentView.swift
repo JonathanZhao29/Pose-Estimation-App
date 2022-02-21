@@ -4,13 +4,18 @@
 //
 //  Created by Jonathan Zhao on 1/30/22.
 //
-
 import SwiftUI
-
 struct ContentView: View {
-    var body: some View {
-        Text("Hello, world!")
-            .padding()
+    var body: some View{
+        NavigationView{
+            
+            //Add Your Views here with Navigation Link
+            //Don't write another .navigationTitle
+            NavigationLink(destination: ProfilePage()){
+                Text("Profile Page")
+            }
+                .navigationTitle("Navigation")
+        }
     }
 }
 
