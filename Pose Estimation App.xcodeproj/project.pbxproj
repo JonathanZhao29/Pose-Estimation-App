@@ -7,6 +7,21 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6480B9C227C34F6F00136762 /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 6480B9C127C34F6F00136762 /* FirebaseAnalytics */; };
+		6480B9C427C34F6F00136762 /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 6480B9C327C34F6F00136762 /* FirebaseAuth */; };
+		6480B9C627C34F6F00136762 /* FirebaseFirestore in Frameworks */ = {isa = PBXBuildFile; productRef = 6480B9C527C34F6F00136762 /* FirebaseFirestore */; };
+		64D2393627B99AE4000F2A30 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D2393527B99AE4000F2A30 /* SignInView.swift */; };
+		64D2393727B99AE4000F2A30 /* SignInView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D2393527B99AE4000F2A30 /* SignInView.swift */; };
+		64D2393927B9F8A5000F2A30 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 64D2393827B9F8A5000F2A30 /* GoogleService-Info.plist */; };
+		64D2393A27B9F8A5000F2A30 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 64D2393827B9F8A5000F2A30 /* GoogleService-Info.plist */; };
+		64D2393B27B9F8A5000F2A30 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 64D2393827B9F8A5000F2A30 /* GoogleService-Info.plist */; };
+		64D2393C27B9F8A5000F2A30 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 64D2393827B9F8A5000F2A30 /* GoogleService-Info.plist */; };
+		64D2393E27B9FEB2000F2A30 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D2393D27B9FEB2000F2A30 /* SignUpView.swift */; };
+		64D2393F27B9FEB2000F2A30 /* SignUpView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D2393D27B9FEB2000F2A30 /* SignUpView.swift */; };
+		64D2394627BA16B1000F2A30 /* AppUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D2394527BA16B1000F2A30 /* AppUserModel.swift */; };
+		64D2394727BA16B1000F2A30 /* AppUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D2394527BA16B1000F2A30 /* AppUserModel.swift */; };
+		64D2394827BA16B1000F2A30 /* AppUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D2394527BA16B1000F2A30 /* AppUserModel.swift */; };
+		64D2394927BA16B1000F2A30 /* AppUserModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 64D2394527BA16B1000F2A30 /* AppUserModel.swift */; };
 		FBA0F5ED27A72B3D001A98F3 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA0F5EC27A72B3D001A98F3 /* Tests_iOS.swift */; };
 		FBA0F5EF27A72B3D001A98F3 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA0F5EE27A72B3D001A98F3 /* Tests_iOSLaunchTests.swift */; };
 		FBA0F5F927A72B3D001A98F3 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA0F5F827A72B3D001A98F3 /* Tests_macOS.swift */; };
@@ -37,6 +52,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		64D238CE27B1C55D000F2A30 /* Empty.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = Empty.md; sourceTree = "<group>"; };
+		64D2393527B99AE4000F2A30 /* SignInView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignInView.swift; sourceTree = "<group>"; };
+		64D2393827B9F8A5000F2A30 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		64D2393D27B9FEB2000F2A30 /* SignUpView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpView.swift; sourceTree = "<group>"; };
+		64D2394527BA16B1000F2A30 /* AppUserModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppUserModel.swift; sourceTree = "<group>"; };
 		FBA0F5D427A72B33001A98F3 /* Pose_Estimation_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pose_Estimation_AppApp.swift; sourceTree = "<group>"; };
 		FBA0F5D527A72B33001A98F3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FBA0F5D627A72B3D001A98F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -56,6 +76,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				6480B9C227C34F6F00136762 /* FirebaseAnalytics in Frameworks */,
+				6480B9C427C34F6F00136762 /* FirebaseAuth in Frameworks */,
+				6480B9C627C34F6F00136762 /* FirebaseFirestore in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -83,6 +106,31 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		64D2394227BA0711000F2A30 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FBA0F5D527A72B33001A98F3 /* ContentView.swift */,
+				64D2393527B99AE4000F2A30 /* SignInView.swift */,
+				64D2393D27B9FEB2000F2A30 /* SignUpView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		64D2394327BA1658000F2A30 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		64D2394427BA166E000F2A30 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				64D2394527BA16B1000F2A30 /* AppUserModel.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
 		FBA0F5CE27A72B32001A98F3 = {
 			isa = PBXGroup;
 			children = (
@@ -97,9 +145,13 @@
 		FBA0F5D327A72B33001A98F3 /* Shared */ = {
 			isa = PBXGroup;
 			children = (
+				64D2394427BA166E000F2A30 /* Models */,
+				64D2394327BA1658000F2A30 /* Helpers */,
+				64D2394227BA0711000F2A30 /* Views */,
+				64D2393827B9F8A5000F2A30 /* GoogleService-Info.plist */,
 				FBA0F5D427A72B33001A98F3 /* Pose_Estimation_AppApp.swift */,
-				FBA0F5D527A72B33001A98F3 /* ContentView.swift */,
 				FBA0F5D627A72B3D001A98F3 /* Assets.xcassets */,
+				64D238CE27B1C55D000F2A30 /* Empty.md */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -157,6 +209,11 @@
 			dependencies = (
 			);
 			name = "Pose Estimation App (iOS)";
+			packageProductDependencies = (
+				6480B9C127C34F6F00136762 /* FirebaseAnalytics */,
+				6480B9C327C34F6F00136762 /* FirebaseAuth */,
+				6480B9C527C34F6F00136762 /* FirebaseFirestore */,
+			);
 			productName = "Pose Estimation App (iOS)";
 			productReference = FBA0F5DB27A72B3D001A98F3 /* Pose Estimation App.app */;
 			productType = "com.apple.product-type.application";
@@ -249,6 +306,9 @@
 				Base,
 			);
 			mainGroup = FBA0F5CE27A72B32001A98F3;
+			packageReferences = (
+				6480B9C027C34F6F00136762 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = FBA0F5DC27A72B3D001A98F3 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -267,6 +327,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBA0F60027A72B3D001A98F3 /* Assets.xcassets in Resources */,
+				64D2393927B9F8A5000F2A30 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +336,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FBA0F60127A72B3D001A98F3 /* Assets.xcassets in Resources */,
+				64D2393A27B9F8A5000F2A30 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,6 +344,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64D2393B27B9F8A5000F2A30 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -289,6 +352,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64D2393C27B9F8A5000F2A30 /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,8 +363,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64D2393E27B9FEB2000F2A30 /* SignUpView.swift in Sources */,
+				64D2393627B99AE4000F2A30 /* SignInView.swift in Sources */,
 				FBA0F5FE27A72B3D001A98F3 /* ContentView.swift in Sources */,
 				FBA0F5FC27A72B3D001A98F3 /* Pose_Estimation_AppApp.swift in Sources */,
+				64D2394627BA16B1000F2A30 /* AppUserModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,8 +375,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				64D2393F27B9FEB2000F2A30 /* SignUpView.swift in Sources */,
+				64D2393727B99AE4000F2A30 /* SignInView.swift in Sources */,
 				FBA0F5FF27A72B3D001A98F3 /* ContentView.swift in Sources */,
 				FBA0F5FD27A72B3D001A98F3 /* Pose_Estimation_AppApp.swift in Sources */,
+				64D2394727BA16B1000F2A30 /* AppUserModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -319,6 +389,7 @@
 			files = (
 				FBA0F5EF27A72B3D001A98F3 /* Tests_iOSLaunchTests.swift in Sources */,
 				FBA0F5ED27A72B3D001A98F3 /* Tests_iOS.swift in Sources */,
+				64D2394827BA16B1000F2A30 /* AppUserModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -328,6 +399,7 @@
 			files = (
 				FBA0F5FB27A72B3D001A98F3 /* Tests_macOSLaunchTests.swift in Sources */,
 				FBA0F5F927A72B3D001A98F3 /* Tests_macOS.swift in Sources */,
+				64D2394927BA16B1000F2A30 /* AppUserModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -384,6 +456,8 @@
 				DEBUG_INFORMATION_FORMAT = dwarf;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
 				ENABLE_TESTABILITY = YES;
+				EXCLUDED_ARCHS = arm64;
+				"EXCLUDED_ARCHS[sdk=iphonesimulator*]" = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_NO_COMMON_BLOCKS = YES;
@@ -401,6 +475,8 @@
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
 				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
@@ -443,6 +519,7 @@
 				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
 				ENABLE_NS_ASSERTIONS = NO;
 				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				EXCLUDED_ARCHS = arm64;
 				GCC_C_LANGUAGE_STANDARD = gnu11;
 				GCC_NO_COMMON_BLOCKS = YES;
 				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
@@ -453,6 +530,8 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SUPPORTED_PLATFORMS = "iphonesimulator iphoneos";
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
 			};
@@ -466,6 +545,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
+				EXCLUDED_ARCHS = arm64;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -478,12 +558,14 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Pose-Estimation-App";
 				PRODUCT_NAME = "Pose Estimation App";
 				SDKROOT = iphoneos;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_WORKSPACE = NO;
 			};
 			name = Debug;
 		};
@@ -495,6 +577,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				ENABLE_PREVIEWS = YES;
+				EXCLUDED_ARCHS = arm64;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
@@ -507,6 +590,7 @@
 					"@executable_path/Frameworks",
 				);
 				MARKETING_VERSION = 1.0;
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Pose-Estimation-App";
 				PRODUCT_NAME = "Pose Estimation App";
 				SDKROOT = iphoneos;
@@ -514,6 +598,7 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
+				VALIDATE_WORKSPACE = NO;
 			};
 			name = Release;
 		};
@@ -523,6 +608,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -538,6 +624,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Pose-Estimation-App";
 				PRODUCT_NAME = "Pose Estimation App";
 				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -549,6 +636,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_ENTITLEMENTS = macOS/macOS.entitlements;
+				CODE_SIGN_IDENTITY = "-";
 				CODE_SIGN_STYLE = Automatic;
 				COMBINE_HIDPI_IMAGES = YES;
 				CURRENT_PROJECT_VERSION = 1;
@@ -564,6 +652,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = "com.example.Pose-Estimation-App";
 				PRODUCT_NAME = "Pose Estimation App";
 				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = macosx;
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 			};
@@ -693,6 +782,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		6480B9C027C34F6F00136762 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				branch = master;
+				kind = branch;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		6480B9C127C34F6F00136762 /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6480B9C027C34F6F00136762 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		6480B9C327C34F6F00136762 /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6480B9C027C34F6F00136762 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
+		};
+		6480B9C527C34F6F00136762 /* FirebaseFirestore */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 6480B9C027C34F6F00136762 /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseFirestore;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = FBA0F5CF27A72B32001A98F3 /* Project object */;
 }

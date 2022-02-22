@@ -1,0 +1,6 @@
+framework module Pods_Pose_Estimation_App__iOS_ {
+  umbrella header "Pods-Pose Estimation App (iOS)-umbrella.h"
+
+  export *
+  module * { export * }
+}
