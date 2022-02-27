@@ -9,6 +9,8 @@
 /* Begin PBXBuildFile section */
 		5575AF0E27C32E3E004B0D65 /* ProfilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5575AF0D27C32E3E004B0D65 /* ProfilePage.swift */; };
 		5575AF0F27C32E3E004B0D65 /* ProfilePage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5575AF0D27C32E3E004B0D65 /* ProfilePage.swift */; };
+		55A1374327CBCE9800978C49 /* PostPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A1374227CBCE9800978C49 /* PostPage.swift */; };
+		55A1374427CBCE9800978C49 /* PostPage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 55A1374227CBCE9800978C49 /* PostPage.swift */; };
 		FBA0F5ED27A72B3D001A98F3 /* Tests_iOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA0F5EC27A72B3D001A98F3 /* Tests_iOS.swift */; };
 		FBA0F5EF27A72B3D001A98F3 /* Tests_iOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA0F5EE27A72B3D001A98F3 /* Tests_iOSLaunchTests.swift */; };
 		FBA0F5F927A72B3D001A98F3 /* Tests_macOS.swift in Sources */ = {isa = PBXBuildFile; fileRef = FBA0F5F827A72B3D001A98F3 /* Tests_macOS.swift */; };
@@ -40,6 +42,7 @@
 
 /* Begin PBXFileReference section */
 		5575AF0D27C32E3E004B0D65 /* ProfilePage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfilePage.swift; sourceTree = "<group>"; };
+		55A1374227CBCE9800978C49 /* PostPage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PostPage.swift; sourceTree = "<group>"; };
 		FBA0F5D427A72B33001A98F3 /* Pose_Estimation_AppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Pose_Estimation_AppApp.swift; sourceTree = "<group>"; };
 		FBA0F5D527A72B33001A98F3 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		FBA0F5D627A72B3D001A98F3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -104,6 +107,7 @@
 				5575AF0D27C32E3E004B0D65 /* ProfilePage.swift */,
 				FBA0F5D527A72B33001A98F3 /* ContentView.swift */,
 				FBA0F5D627A72B3D001A98F3 /* Assets.xcassets */,
+				55A1374227CBCE9800978C49 /* PostPage.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -303,6 +307,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55A1374327CBCE9800978C49 /* PostPage.swift in Sources */,
 				5575AF0E27C32E3E004B0D65 /* ProfilePage.swift in Sources */,
 				FBA0F5FE27A72B3D001A98F3 /* ContentView.swift in Sources */,
 				FBA0F5FC27A72B3D001A98F3 /* Pose_Estimation_AppApp.swift in Sources */,
@@ -313,6 +318,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				55A1374427CBCE9800978C49 /* PostPage.swift in Sources */,
 				5575AF0F27C32E3E004B0D65 /* ProfilePage.swift in Sources */,
 				FBA0F5FF27A72B3D001A98F3 /* ContentView.swift in Sources */,
 				FBA0F5FD27A72B3D001A98F3 /* Pose_Estimation_AppApp.swift in Sources */,
@@ -471,6 +477,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -500,6 +507,7 @@
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;

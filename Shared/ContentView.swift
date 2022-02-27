@@ -11,10 +11,22 @@ struct ContentView: View {
             
             //Add Your Views here with Navigation Link
             //Don't write another .navigationTitle
-            NavigationLink(destination: ProfilePage()){
-                Text("Profile Page")
+            Form{
+            
+                
+                
+                NavigationLink(destination: ProfilePage()){
+                    Text("Profile Page")
+                }
+                
+                //Can pass video information in
+                NavigationLink(destination: PostPage()){
+                    Text("Post Page")
+                    
             }
-                .navigationTitle("Navigation")
+            
+            }
+                .navigationTitle("Pose Estimation App")
         }
     }
 }
