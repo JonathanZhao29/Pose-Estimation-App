@@ -23,7 +23,8 @@ struct ContentView: View {
                 NavigationLink(destination: PostPage()){
                     Text("Post Page")
                     
-            }
+                }
+                .navigationTitle(Text("Home"))
             
             }
                 .navigationTitle("Pose Estimation App")
